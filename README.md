@@ -22,7 +22,7 @@ Projet de fin de L3, une modification d'Ollama visant à supprimer des mots bann
 
 5. **Placez le dossier `ressources`** dans le même répertoire que l’exécutable compilé d’Ollama.
 
-## Lancement des Tests Python
+## Lancement du plugin
 
 6. **Préparez l’environnement Python :** 
    - Créez un environnement virtuel :
