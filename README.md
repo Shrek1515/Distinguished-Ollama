@@ -4,7 +4,7 @@ Projet de fin de L3, une modification d'Ollama visant à supprimer des mots bann
 ## Téléchargement et Préparation
 
 1. **Téléchargez ce dépôt GitHub.** 
-   Clonez ou téléchargez les fichiers localement.
+   Clonez ou téléchargez le dépôt.
 
 2. **Récupérez le code source d'Ollama.** 
    - Téléchargez la version **0.6.0** d’Ollama. 
@@ -13,8 +13,9 @@ Projet de fin de L3, une modification d'Ollama visant à supprimer des mots bann
 ## Intégration du Plugin
 
 3. **Ajoutez le plugin au code source :** 
+   - Les fichiers contenus dans le dossier `ollama_source` doivent être placés dans le code source d'Ollama.
    - Copiez le dossier `plugin_filtre` dans le code source d’Ollama. 
-   - Remplacez les fichiers existants dans les autres dossiers si nécessaire *(pensez à sauvegarder les originaux).*
+   - Placez les fichiers restant d'`ollama_source` dans les dossiers correspondants *(pensez à sauvegarder les originaux).*
 
 4. **Compilez Ollama** selon les instructions officielles de leur documentation.
 
@@ -25,6 +26,7 @@ Projet de fin de L3, une modification d'Ollama visant à supprimer des mots bann
 ## Lancement du plugin
 
 6. **Préparez l’environnement Python :** 
+   - Placez-vous dans le dossier `plugin`.
    - Créez un environnement virtuel :
      ```bash
      python -m venv venv
